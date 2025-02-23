@@ -10,11 +10,11 @@ export default function Home() {
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       {/* Navbar */}
-      <nav className="flex justify-between items-center p-6 shadow-md ">
+      <nav className="flex justify-center items-center p-6 shadow-md ">
         <h1 className="text-2xl font-bold ">
-          <span className="text-amber-800">My Portfolio</span>
+          <span className="text-amber-800 tracking-[.15em]">Beyond Code: A Developer’s Showcase</span>
         </h1>
-        <ul className="flex gap-9">
+        {/* <ul className="flex gap-9">
           <li>
             <a href="#about" className="hover:text-amber-800">
               About
@@ -30,7 +30,7 @@ export default function Home() {
               Contact
             </a>
           </li>
-        </ul>
+        </ul> */}
       </nav>
 
      <Outlet/>

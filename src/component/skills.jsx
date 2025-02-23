@@ -8,7 +8,10 @@ const Skills = () => {
   const [isAngular, setAngular] = useState(false);
   return (
     <>
-      <div className="flex mt-10">
+      <h2 className="flex justify-center font-bold mt-8 text-3xl">
+        Skill Pack
+      </h2>
+      <div className="flex ">
         <button
           onClick={() => setIsOpen(true)}
           className="mt-6 bg-blue-500 hover:bg-blue-600 w-70 text-white"
@@ -228,7 +231,7 @@ const Skills = () => {
 
       {/*  */}
 
-      <div className="flex mt-10">
+      <div className="flex ">
         <button className="mt-6 bg-blue-500 hover:bg-blue-600 w-70 text-white">
           <span className="flex justify-center gap-x-6">
             MongoDB{" "}
@@ -286,7 +289,7 @@ const Skills = () => {
       </div>
 
       {/*  */}
-      <div className="flex mt-10">
+      <div className="flex">
         <button className="mt-6 bg-blue-500 hover:bg-blue-600 w-70 text-white">
           <span className="flex justify-center gap-x-6">
             Bootstrap{" "}
@@ -343,7 +346,7 @@ const Skills = () => {
         </button>
       </div>
       {/*  */}
-      <div className="flex mt-10">
+      <div className="flex ">
         <button className="mt-6 bg-blue-500 hover:bg-blue-600 w-70 text-white">
           <span className="flex justify-center gap-x-6">
             Git{" "}
@@ -399,6 +402,11 @@ const Skills = () => {
           </span>
         </button>
       </div>
+      <div className="flex justify-center">
+        <Link to="/">
+      <button className="mt-6  w-140 text-white">
+        Home
+      </button></Link></div>
     </>
   );
 };

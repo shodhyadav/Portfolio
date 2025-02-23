@@ -23,6 +23,11 @@ const Landing = () => {
           efficient and innovative solutions that solve real-world problems.
         </p>
         <div className="flex justify-between gap-x-5">
+          <Link to="/about">
+            <button className="mt-6 bg-blue-500 hover:bg-blue-600 w-40">
+              About
+            </button>
+          </Link>
           <Link to="/skills">
             <button className="mt-6 bg-blue-500 hover:bg-blue-600 w-40">
               Skills
@@ -31,9 +36,7 @@ const Landing = () => {
           <button className="mt-6 bg-blue-500 hover:bg-blue-600 w-40">
             Education
           </button>
-          <button className="mt-6 bg-blue-500 hover:bg-blue-600 w-40">
-            About
-          </button>
+
           <button className="mt-6 bg-blue-500 hover:bg-blue-600 w-40">
             Projects
           </button>
