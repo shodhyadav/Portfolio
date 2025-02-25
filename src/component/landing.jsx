@@ -33,13 +33,15 @@ const Landing = () => {
               Skills
             </button>
           </Link>
+          <Link to="/projects">
+          <button className="mt-6 bg-blue-500 hover:bg-blue-600 w-40">
+            Projects
+          </button></Link>
           <button className="mt-6 bg-blue-500 hover:bg-blue-600 w-40">
             Education
           </button>
 
-          <button className="mt-6 bg-blue-500 hover:bg-blue-600 w-40">
-            Projects
-          </button>
+          
         </div>
       </header>
 
